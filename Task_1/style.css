@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9966ff;
+    margin-left: 500px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    background-color: white;
+    border: 3px solid black;
+    width: 500px;
+    height: 400px;
+    box-shadow: 10px 10px 10px black;
+    padding: 20px 10px;
+}
+
+form {
+    width: 100%;
+}
+
+.data {
+    font-size: 20px;
+    margin-left: 40px;
+    width: 60%;
+    height: 30px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+.button {
+    width: 20%;
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 5px 5px black;
+    background-color: #9966ff;
+}
+
+table {
+    margin-top: 30px;
+    width: 100%;
+    border-spacing: 8px;
+}
+
+.col1 {
+    width: 80%;
+    height: 20px;
+    font-size: 20px;
+    background-color: #9966ff;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}
+
+.col2 {
+    height: 20px;
+    font-size: 20px;
+    background-color: #9966ff;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}
+
+.scrollit {
+    overflow: scroll;
+    height: 250px;
+}
+
+th,
+td {
+    border: 2px solid #000;
+    padding: 5px 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    height: 10px;
+}
+
+h1 {
+    color: black;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+td[onclick] {
+    background-color: rgb(232, 48, 48);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+}
